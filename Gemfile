@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.1'
 # gem 'sqlite3'
 
 gem 'pg'
+gem 'sendgrid-ruby'
 gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
