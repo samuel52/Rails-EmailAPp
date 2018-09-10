@@ -2,9 +2,9 @@ class PostMailer < ActionMailer::Base
 
 	
 
-	def post_created(post)
+	def post_created(user, post)
 		@post = post
-		mail(to: "samuelsadiq52@gmail.com",
+		mail(to: user.email,
 			from: "chat@juvenisspa.com",
 			subject: "Post Created"
 				)
